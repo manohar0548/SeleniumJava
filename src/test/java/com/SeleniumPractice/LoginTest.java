@@ -14,14 +14,14 @@ public class LoginTest {
 		
 //		Clicking on Signin Link
 		WebElement signInButton = driver.findElement(By.linkText("Sign in"));
-		signInButton.click();		
+		signInButton.click();
 		Thread.sleep(2000);
 		
 //		Login Page
 		WebElement loginInputField = driver.findElement(By.id("login_field"));
-		loginInputField.sendKeys("manoharlakkaraju@gmail.com");
+		loginInputField.sendKeys("usename");
 		WebElement passwordField = driver.findElement(By.id("password"));
-		passwordField.sendKeys("Manohar@0548");
+		passwordField.sendKeys("password");
 		WebElement loginButton = driver.findElement(By.name("commit"));
 		loginButton.click();
 		Thread.sleep(2000);
